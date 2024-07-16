@@ -1,9 +1,13 @@
-from mask_plus import plus
-from mask_divide import divide
-from mask_times import times
+from mask_plus.plus import plus
+from mask_divide.divide import divide
+from mask_times.times import multiply
 
-def call():
+
+def add():
     plus()
-    divide()
-    multiply()
 
+def cut():
+    divide()
+
+def duplicate():
+    multiply()

@@ -1,6 +1,6 @@
 [project]
 name = "mask_cmd"
-version = "0.1.0"
+version = "0.1.3"
 description = "Default template for PDM package"
 authors = [
     {name = "mask", email = "whitecapella@naver.com"},
@@ -15,7 +15,14 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.scripts]
-call = "mask_cmd.call.call"
+mask_call_cut = "mask_cmd.call:cut"
+mask_call_plus = "mask_cmd.call:add"
+mask_call_dup = "mask_cmd.call:duplicate"
+
 
 [tool.pdm]
 distribution = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
