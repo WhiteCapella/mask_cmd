@@ -4,7 +4,7 @@
 
 ### PLUS
 ```
-$ mask_cmd_plus
+$ mask_call_plus
 ```
 
 ```
@@ -13,7 +13,7 @@ $ mask_cmd_plus
 
 ### Divide
 ```
-$ mask_cmd_cut
+$ mask_call_cut
 ```
 
 ```
@@ -22,7 +22,7 @@ $ mask_cmd_cut
 
 ### Duplicate
 ```
-$ mask_cmd_dup
+$ mask_call_dup
 ```
 
 ```
