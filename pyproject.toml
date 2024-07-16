@@ -5,11 +5,17 @@ description = "Default template for PDM package"
 authors = [
     {name = "mask", email = "whitecapella@naver.com"},
 ]
-dependencies = []
-requires-python = "==3.9.*"
+dependencies = [
+    "mask-plus>=0.1.0",
+    "mask-divide>=0.1.0",
+    "mask-times>=0.1.0",
+]
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+call = "mask_cmd.call.call"
 
 [tool.pdm]
-distribution = false
+distribution = true
